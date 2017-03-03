@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_menu_wlan_trans"
+            android:icon="@drawable/ic_menu_wlan"
+            android:title="局域网传输" />
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@drawable/ic_menu_bluetooth"
+            android:title="蓝牙传输" />
+        <item
+            android:id="@+id/nav_filesmanage"
+            android:icon="@drawable/ic_menu_filesmanage"
+            android:title="文件管理" />
+    </group>
+
+</menu>

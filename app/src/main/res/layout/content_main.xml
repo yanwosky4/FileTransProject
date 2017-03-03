@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/offline_files_main_background"
+    tools:context="com.yh.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--<include layout="@layout/offline_files_main" />-->
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/button_CreateConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/offline_files_button_shape"
+        android:textColor="#FFFFFF"
+        android:text="创建连接"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/button_ScanToJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/offline_files_button_shape"
+        android:textColor="#FFFFFF"
+        android:text="搜索加入"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/button_lookFileTransRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/offline_files_button_shape"
+        android:textColor="#FFFFFF"
+        android:text="查看文件传输记录"
+        />
+
+</LinearLayout>
